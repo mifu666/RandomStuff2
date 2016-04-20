@@ -31,6 +31,13 @@ int varCalc() // Calculate space of variables
 	return(0);
 }
 
+int asciiArt() // Test Char var
+{
+	using namespace std;
+	cout << char(14) << char(24) << endl;
+	return 0;
+}
+
 int main()
 {
 	int printValue{ 5 };
@@ -38,6 +45,7 @@ int main()
 	cout << "The Value set currently is: " << printValue << endl;
 	cout << voidValue << endl;
 	varCalc();
+	asciiArt();
 	return 0;
 }
 
