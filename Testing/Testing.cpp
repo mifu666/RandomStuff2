@@ -6,11 +6,14 @@
 #include "stdafx.h"
 #include <iostream>
 
-void voidValue(int x) // some test void function for shits and gigs
+struct Testing
 {
-	using namespace std;
-	cout << "The value of this one is: " << x << endl;
-}
+	short id;
+	int age;
+	double wages;
+};
+
+
 
 int varCalc() // Calculate space of variables
 {
@@ -43,7 +46,6 @@ int main()
 	int printValue{ 5 };
 	using namespace std;
 	cout << "The Value set currently is: " << printValue << endl;
-	cout << voidValue << endl;
 	varCalc();
 	asciiArt();
 	return 0;
