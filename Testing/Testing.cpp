@@ -1,5 +1,6 @@
 // Testing.cpp : Defines the entry point for the console application.
 //
+// LOL
 
 // Include libraries and header files
 #include "stdafx.h"
